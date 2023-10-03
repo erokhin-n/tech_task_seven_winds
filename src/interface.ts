@@ -12,3 +12,7 @@ export interface IRow {
     salary: number;
     supportCosts: number;
 }
+
+export interface ISavedRowsProps {
+    formVisible: (arg0: boolean) => void;
+}

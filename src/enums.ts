@@ -12,3 +12,9 @@ export enum Row {
     MAIN_COSTS = 'mainCosts',
     ESTIMATED_PROFIT = 'estimatedProfit'
 }
+
+export enum Tags {
+    CREATE_ROW = 'CREATE_ROW',
+    UPDATE_ROW = 'UPDATE_ROW',
+    DELETE_ROW = 'DELETE_ROW'
+}

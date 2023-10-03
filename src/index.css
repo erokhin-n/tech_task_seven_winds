@@ -45,9 +45,53 @@ code {
 /* input color */
 .css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input{
 	color: #fff;
+	padding: 0 0 0 2px;
 }
 
 /* tableRow color */
 .css-1ex1afd-MuiTableCell-root {
 	color: #fff;
 }
+
+/* header font size */
+.css-1ygcj2i-MuiTableCell-root {
+	font-size: 12px;
+}
+
+
+.buttonsContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3;
+}
+  
+.button {
+	opacity: 0;
+}
+  
+.buttonsContainer:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	text-align: center;
+	width: 70%;
+}
+  
+.buttonsContainer:hover .button {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.header {
+	background-color: #424242;
+	min-height: 100px;
+	text-align: center;
+}
+
+.sidebar {
+	background-color: #555555;
+	text-align: center;
+	min-height: 100vh;
+}
+
+
